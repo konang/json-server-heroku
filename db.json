@@ -1,16 +1,25 @@
 {
-  "posts":[
+  "streams": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
+      "title": "firstStream",
+      "description": "this is the first stream",
+      "id": 1
+    },
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "title": "Second Stream",
+      "description": "This is the second stream",
+      "id": 2
+    },
+    {
+      "title": "First Stream with UserId",
+      "description": "This was made by me",
+      "userId": "101187492074496424282",
+      "id": 3
+    },
+    {
+      "title": "Programatic Navigation Edited",
+      "description": "Testing Programatic Navigation after push",
+      "id": 5
     }
   ]
 }
